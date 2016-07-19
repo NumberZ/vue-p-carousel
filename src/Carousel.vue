@@ -41,10 +41,10 @@
 				type:Array,
 				required:true
 			},
-			autoPlay: {
+			autoplay: {
 				type:Boolean,
 				required:false,
-				default:true
+				default:false
 			},
 			speed: {
 		        type: Number,
@@ -56,7 +56,7 @@
       			required:false,
       			default:true
       		},
-      		showdots: {
+      		showDots: {
       			type:Boolean,
       			required:false,
       			default:true		
@@ -79,10 +79,10 @@
 				this.currentIndex = _i;
 			},
 			goPlay() {
-				if(this.autoPlay) {
+				if(this.autoplay) {
 					this.autoPlayFlag = setInterval(() => {
 						this.turn(1);
-					}, this.delay * 1000)
+					},this.delay * 1000)
 				}
 			},
 			pausePlay() {
@@ -93,11 +93,11 @@
 			}
 		},
 		ready() {
-			this.goPlay();
+				this.goPlay();
 		}
 	}
 </script>
-<style>
+<style type="text/css">
 	* {
 		margin:0;
 		padding: 0
