@@ -1,11 +1,11 @@
-# vue-p-carousl
+# vue-p-carousel
 
 carousel component for Vue
 
 ## Installation
 
 ```shell
-$ npm install vue-p-carousl
+$ npm install vue-p-carousel
 ```
 
 ## Usage
