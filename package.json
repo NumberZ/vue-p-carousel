@@ -2,7 +2,7 @@
   "name": "vue-p-carousel",
   "version": "2.0.5",
   "description": "'this is a carousel component for vue'",
-  "main": "src/carousel",
+  "main": "dist/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
