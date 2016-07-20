@@ -10,7 +10,11 @@
     "\"vue",
     "carousel\""
   ],
-  "author": "lihao li",
+  "repository": {
+    "type": "git",
+    "url": "NumberZ/vue-p-carousel"
+  },
+  "author": "lihao li  (https://github.com/NumberZ)",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.10.4",
