@@ -30,9 +30,9 @@ module.exports = {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
       compress: {
-        warnings: false
+        warnings: false,
+        negate_iife: false
       }
     }),
     new webpack.optimize.OccurenceOrderPlugin()
